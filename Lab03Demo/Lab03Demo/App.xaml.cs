@@ -10,7 +10,8 @@ namespace Lab03Demo
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new GridDemo();
         }
 
         protected override void OnStart()
